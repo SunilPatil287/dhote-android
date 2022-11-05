@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.iitms.bfr.ui.view.fragment.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.iitms.bfr.ui.view.fragment.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.iitms.bfr.ui.view.fragment.CategoryFragment"
+        android:label="@string/menu_categories"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.iitms.bfr.ui.view.fragment.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/navigation_sub_category"
+        android:name="com.iitms.bfr.ui.view.fragment.SubCategoryFragment"
+        android:label="@string/menu_sub_category"
+        tools:layout="@layout/fragment_sub_category" />
+
+    <fragment
+        android:id="@+id/navigation_sub_category_detail"
+        android:name="com.iitms.bfr.ui.view.fragment.SubCategoryDetailFragment"
+        android:label="@string/menu_sub_category_detail"
+        tools:layout="@layout/fragment_sub_category_detail" />
+
+
+    <fragment
+        android:id="@+id/navigation_apply_coupon"
+        android:name="com.iitms.bfr.ui.view.fragment.ApplyCouponFragment"
+        android:label="@string/menu_apply_coupon"
+        tools:layout="@layout/fragment_sub_category_detail" />
+
+
+    <fragment
+        android:id="@+id/navigation_order_status"
+        android:name="com.iitms.bfr.ui.view.fragment.OrderStatusFragment"
+        android:label="@string/menu_order_status"
+        tools:layout="@layout/fragment_order_status" />
+
+
+    <fragment
+        android:id="@+id/navigation_add_address"
+        android:name="com.iitms.bfr.ui.view.fragment.AddAddressFragment"
+        android:label="@string/menu_add_address"
+        tools:layout="@layout/fragment_add_address" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.iitms.bfr.ui.view.fragment.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/navigation_orders"
+        android:name="com.iitms.bfr.ui.view.fragment.OrdersFragment"
+        android:label="@string/menu_orders"
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/navigation_contact_us"
+        android:name="com.iitms.bfr.ui.view.fragment.ContactUsFragment"
+        android:label="@string/lbl_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+
+    <fragment
+        android:id="@+id/navigation_terms"
+        android:name="com.iitms.bfr.ui.view.fragment.TermsFragment"
+        android:label="@string/lbl_terms"
+        tools:layout="@layout/fragment_terms" />
+
+    <fragment
+        android:id="@+id/navigation_faq"
+        android:name="com.iitms.bfr.ui.view.fragment.FaqFragment"
+        android:label="@string/lbl_faq"
+        tools:layout="@layout/fragment_faq" />
+
+    <fragment
+        android:id="@+id/navigation_privacy"
+        android:name="com.iitms.bfr.ui.view.fragment.PrivacyFragment"
+        android:label="@string/privacy"
+        tools:layout="@layout/fragment_privacy" />
+
+    <fragment
+        android:id="@+id/navigation_address"
+        android:name="com.iitms.bfr.ui.view.fragment.AddressFragment"
+        android:label="@string/address"
+        tools:layout="@layout/fragment_address" />
+
+
+
+</navigation>

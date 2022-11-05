@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="LoginActivityBinding">
+
+        <variable
+            name="loginModel"
+            type="com.iitms.bfr.data.model.LoginModel" />
+
+        <variable
+            name="viewModel"
+            type="com.iitms.bfr.ui.viewModel.LoginActivityViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rl_main"
+        android:background="@drawable/ic_background_login_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.view.activity.LoginActivity">
+        <LinearLayout
+            android:alpha="0.25"
+            android:background="@drawable/ic_background_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:layout_marginTop="@dimen/dp_100"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/lbl_splash_logo"
+                android:src="@drawable/ic_chicken_logo" />
+
+            <RelativeLayout
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_dhote"
+                    android:paddingEnd="@dimen/dp_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/lbl_splash_logo"
+                    android:src="@drawable/ic_dhote" />
+                <ImageView
+                    android:layout_toRightOf="@+id/iv_dhote"
+                    android:id="@+id/iv_chicken"
+                    android:paddingStart="@dimen/dp_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/lbl_splash_logo"
+                    android:src="@drawable/ic_chicken_text" />
+
+                <View
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_toEndOf="@id/iv_chicken"
+                    android:layout_toStartOf="@+id/iv_dhote"
+                    android:background="@color/colorWhite"
+                    android:layout_below="@+id/iv_dhote"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_01"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="@dimen/dp_05"
+                android:textColor="@color/colorWhite"
+                android:text="@string/lbl_login_create_acc"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:background="@drawable/rounded_background_white"
+                android:layout_margin="@dimen/dp_15"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/sp_16"
+                    style="@style/CustomTextView"
+                    android:padding="@dimen/dp_10"
+                    android:text="+91"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_margin="@dimen/dp_05"
+                    android:background="@color/gray"
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"/>
+
+
+                <EditText
+                    android:id="@+id/edt_number"
+                    android:background="@drawable/rounded_background_white"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/sp_16"
+                    style="@style/CustomTextView"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="@dimen/dp_10"
+                    android:hint="@string/lbl_enter_mobile_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_login"
+                android:textAllCaps="false"
+                android:text="@string/lbl_login"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginBottom="@dimen/dp_15"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background_fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/sp_11"
+                android:layout_margin="@dimen/dp_05"
+                android:textColor="@color/colorWhite"
+                android:text="@string/lbl_trems_condition"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

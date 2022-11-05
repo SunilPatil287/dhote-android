@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="AddAddressFragmentBinding">
+
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        tools:context=".ui.view.fragment.CartFragment">
+
+        <androidx.core.widget.NestedScrollView
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/dp_20"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="@dimen/dp_08"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        style="@style/CustomTextViewBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="@string/address_type"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary"/>
+
+                    <EditText
+                        android:inputType="textCapSentences"
+                        android:id="@+id/edt_address_type"
+                        style="@style/CustomTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_03"
+                        android:background="@drawable/edittext_background_unfill"
+                        android:gravity="center_vertical"
+                        android:hint="@string/address_type_hint"
+                        android:padding="@dimen/dp_10"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary" />
+
+
+                    <TextView
+                        style="@style/CustomTextViewBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="@string/pincode"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary"/>
+
+                    <EditText
+                        android:inputType="number"
+                        android:id="@+id/edt_pincode"
+                        style="@style/CustomTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_03"
+                        android:background="@drawable/edittext_background_unfill"
+                        android:gravity="center_vertical"
+                        android:hint="@string/pincode"
+                        android:padding="@dimen/dp_10"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary" />
+
+
+
+                    <TextView
+                        style="@style/CustomTextViewBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="@string/flat_no"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary"/>
+
+                    <EditText
+                        android:inputType="textCapSentences"
+                        android:id="@+id/edt_flat_no"
+                        style="@style/CustomTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_03"
+                        android:background="@drawable/edittext_background_unfill"
+                        android:gravity="center_vertical"
+                        android:hint="@string/flat_no"
+                        android:padding="@dimen/dp_10"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary" />
+
+                    <TextView
+                        style="@style/CustomTextViewBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="@string/area"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary"/>
+
+                    <EditText
+                        android:inputType="textCapSentences"
+                        android:id="@+id/edt_area"
+                        style="@style/CustomTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_03"
+                        android:background="@drawable/edittext_background_unfill"
+                        android:gravity="center_vertical"
+                        android:hint="@string/area"
+                        android:padding="@dimen/dp_10"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary" />
+
+                    <TextView
+                        style="@style/CustomTextViewBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="@string/landmark"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary"/>
+
+                    <EditText
+                        android:inputType="textCapSentences"
+                        android:id="@+id/edt_landmark"
+                        style="@style/CustomTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_03"
+                        android:background="@drawable/edittext_background_unfill"
+                        android:gravity="center_vertical"
+                        android:hint="@string/landmark"
+                        android:padding="@dimen/dp_10"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary" />
+
+                    <TextView
+                        style="@style/CustomTextViewBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="@string/city"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary"/>
+
+                    <EditText
+                        android:inputType="textCapSentences"
+                        android:id="@+id/edt_city"
+                        style="@style/CustomTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_03"
+                        android:hint="@string/city"
+                        android:background="@drawable/edittext_background_unfill"
+                        android:gravity="center_vertical"
+                        android:text="Nagpur"
+                        android:padding="@dimen/dp_10"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary" />
+
+                    <TextView
+                        style="@style/CustomTextViewBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="@string/state"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary"/>
+
+                    <EditText
+                        android:id="@+id/edt_state"
+                        style="@style/CustomTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableTint="@color/gray"
+                        android:background="@drawable/edittext_background_unfill"
+                        android:layout_marginTop="@dimen/dp_03"
+                        android:gravity="center_vertical"
+                        android:hint="@string/state"
+                        android:text="Maharashtra"
+                        android:padding="@dimen/dp_10"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/textColorSecondary" />
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:padding="@dimen/dp_10"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:visibility="gone"
+                            android:layout_marginRight="@dimen/dp_03"
+                            android:layout_weight="1"
+                            android:id="@+id/btn_cancel"
+                            android:text="Cancel"
+                            android:textColor="@color/textColorSecondary"
+                            android:background="@drawable/button_background_unfill"
+                            app:backgroundTint="@null"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <Button
+                            android:layout_marginLeft="@dimen/dp_03"
+                            android:layout_weight="1"
+                            android:id="@+id/btn_save_address"
+                            android:text="Save"
+                            android:backgroundTint="@null"
+                            android:background="@drawable/button_background_fill"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

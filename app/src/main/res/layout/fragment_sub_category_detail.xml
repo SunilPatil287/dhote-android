@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="SubCategoryDetailFragmentBinding">
+
+        <variable
+            name="viewModel"
+            type="com.iitms.bfr.ui.viewModel.SubCategoryViewModel" />
+
+        <variable
+            name="couponAdapter"
+            type="com.iitms.bfr.ui.adapter.CouponAdapter" />
+
+        <variable
+            name="menuAdapter"
+            type="com.iitms.bfr.ui.adapter.MenuAdapter" />
+    </data>
+
+    <RelativeLayout
+        android:background="@color/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.view.fragment.SubCategoryDetailFragment">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/ll_scoll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll_bottom"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/dp_50">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/dp_08"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_05"
+                    app:cardCornerRadius="@dimen/dp_10">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.daimajia.slider.library.SliderLayout
+                            android:id="@+id/slider"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_150" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_margin="@dimen/dp_05"
+                            android:background="@drawable/circle_white">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/dp_06"
+                                android:src="@drawable/ic_heart"
+                                app:tint="@color/colorPrimary" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_05"
+                    android:layout_marginTop="@dimen/dp_05"
+                    android:src="@drawable/ic_non_veg"
+                    app:tint="@color/colorPrimary" />
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_05"
+                    android:layout_marginEnd="@dimen/dp_05"
+                    android:text="Gavrani"
+                    android:textSize="@dimen/sp_16"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_05"
+                    android:layout_marginEnd="@dimen/dp_05"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_bike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_bike"
+                        app:tint="@color/colorPrimary" />
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        style="@style/CustomTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_bike"
+                        android:paddingStart="@dimen/dp_05"
+                        android:text="Deliver till 04:00 PM today"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/sp_11" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/iv_star"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:src="@drawable/ic_star"
+                            app:tint="@color/colorYellow" />
+
+                        <TextView
+                            android:id="@+id/tv_rating"
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/iv_star"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/dp_05"
+                            android:paddingEnd="@dimen/dp_05"
+                            android:text="4.5"
+                            android:textColor="@color/textColorSecondary"
+                            android:textSize="@dimen/sp_11"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_small_large"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_small_size"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_margin="@dimen/dp_05"
+                            android:background="@{viewModel.smallSizeMenu == true ? @drawable/button_background_fill : @drawable/button_background_unfill}"
+                            android:text="Small Size Bird"
+                            android:textAllCaps="false"
+                            android:textColor="@{viewModel.smallSizeMenu == false ? @color/textColorSecondary :@color/colorWhite}"
+                            app:backgroundTint="@null" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="From 1Kg - 1.6Kg" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_large_size"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_40"
+                            android:layout_margin="@dimen/dp_05"
+                            android:background="@{viewModel.smallSizeMenu == false ? @drawable/button_background_fill : @drawable/button_background_unfill}"
+                            android:text="Large Size Bird"
+                            android:textAllCaps="false"
+                            android:textColor="@{viewModel.smallSizeMenu == true ? @color/textColorSecondary :@color/colorWhite}"
+                            app:backgroundTint="@null" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="From 1Kg - 1.6Kg" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_05"
+                    android:background="@drawable/rounded_bg_border"
+                    android:padding="@dimen/dp_10"
+                    android:text="The chicken is a domesticated junglefowl species, with attributes of wild species such as the grey and the Ceylon junglefowl that are originally from Southeastern Asia. " />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_coupon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_02"
+                    android:adapter="@{couponAdapter}"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_coupon" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_cart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_price"
+                    android:layout_marginStart="@dimen/dp_03"
+                    android:layout_marginTop="@dimen/dp_03"
+                    android:layout_marginEnd="@dimen/dp_03"
+                    android:layout_marginBottom="@dimen/dp_03"
+                    android:adapter="@{menuAdapter}"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_menu" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/rounded_background_white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/dp_05"
+                android:layout_marginBottom="@dimen/dp_05"
+                android:layout_marginStart="@dimen/dp_13"
+                android:layout_marginEnd="@dimen/dp_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ll_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        style="@style/CustomTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="Rs 190"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/sp_16"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_add_to_cart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:background="@drawable/rounded_background_half_circle_color_primary"
+                        android:gravity="end"
+                        android:padding="@dimen/dp_03">
+
+                        <ImageView
+                            android:id="@+id/iv_kart"
+                            android:layout_width="@dimen/dp_30"
+                            android:layout_height="@dimen/dp_30"
+                            android:layout_margin="@dimen/dp_05"
+                            android:background="@drawable/circle_white"
+                            android:padding="@dimen/dp_05"
+                            android:src="@drawable/ic_cart"
+                            app:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tv_kart"
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:padding="@dimen/dp_05"
+                            android:text="ADD TO CART"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp_12"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

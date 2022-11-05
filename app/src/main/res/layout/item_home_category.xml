@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="HomeCategoryAdapterBinding">
+
+        <variable
+            name="data"
+            type="com.iitms.bfr.data.model.CategoryList" />
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/cv_main"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_margin="@dimen/dp_05"
+            android:id="@+id/iv_category"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="@dimen/dp_70"
+            android:src="@drawable/ic_chicken_logo"
+            app:civ_border_color="@color/colorWhite"
+            app:civ_border_width="@dimen/dp_02"
+            app:tint="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/tv_category_name"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_category"
+            android:textColor="@color/textColorSecondary"
+            android:textSize="@dimen/sp_12"
+            android:layout_margin="@dimen/dp_02"
+            style="@style/CustomTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</layout>

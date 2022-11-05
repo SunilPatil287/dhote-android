@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="MenuAdapterBinding">
+
+        <variable
+            name="data"
+            type="com.iitms.bfr.data.model.CategoryList" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/dp_310"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="@dimen/dp_05"
+                android:layout_margin="@dimen/dp_05"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_100"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_banner" />
+
+                    <LinearLayout
+                        android:background="@drawable/rounded_background_white"
+                        android:layout_below="@+id/iv_banner"
+                        android:layout_marginTop="-35dp"
+                        android:layout_marginRight="@dimen/dp_05"
+                        android:padding="@dimen/dp_03"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_gravity="center_vertical"
+                            app:tint="@color/colorYellow"
+                            android:src="@drawable/ic_star"
+                            android:layout_width="@dimen/dp_20"
+                            android:layout_height="@dimen/dp_20"/>
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="4.5"
+                            android:textColor="@color/textColorSecondary"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_below="@+id/iv_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/dp_06">
+
+                        <TextView
+                            android:id="@+id/tv_menu_name"
+                            style="@style/CustomTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_03"
+                            android:paddingTop="@dimen/dp_03"
+                            android:text="Goat Curry Cut (Small)"
+                            android:textColor="@color/textColorSecondary"
+                            android:textSize="@dimen/sp_14"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/iv_bike"
+                                android:layout_width="@dimen/dp_20"
+                                android:layout_height="@dimen/dp_20"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_bike"
+                                app:tint="@color/colorPrimary" />
+
+                            <TextView
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/iv_bike"
+                                android:id="@+id/tv_time"
+                                android:paddingStart="@dimen/dp_05"
+                                style="@style/CustomTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tommorrow 8 AM to 10PM"
+                                android:textColor="@color/textColorLight"
+                                android:textSize="@dimen/sp_11" />
+
+                            <TextView
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:paddingEnd="@dimen/dp_05"
+                                style="@style/CustomTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1/2 Kg"
+                                android:textStyle="bold"
+                                android:textColor="@color/textColorSecondary"
+                                android:textSize="@dimen/sp_11" />
+
+                        </RelativeLayout>
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                style="@style/CustomTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="@dimen/dp_05"
+                                android:text="@{`\u20B9 ` + `150`}"
+                                android:textSize="@dimen/sp_14"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_margin="@dimen/dp_05"
+                                android:drawableTint="@color/white"
+                                android:padding="@dimen/dp_03"
+                                android:textColor="@color/white"
+                                android:text="@string/lbl_add"
+                                android:drawablePadding="@dimen/dp_10"
+                                android:background="@drawable/button_background_fill"
+                                android:drawableStart="@drawable/ic_add"
+                                android:layout_alignParentEnd="true"
+                                android:layout_width="@dimen/dp_90"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FD1818</color>
+    <color name="colorPrimaryDark">#FD1818</color>
+    <color name="colorAccent">#FD1818</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightGray">#E6E1E1</color>
+    <color name="colorDarkBlue">#002B41</color>
+
+    <color name="tabBackground">#FD1818</color>
+    <color name="colorBackground">#8AF1F0F0</color>
+    <color name="colorGreen">#628F2E</color>
+
+    <color name="textColorSecondary">#1E2021</color>
+    <color name="textColorLight">#AFAEAE</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="red">#fa7267</color>
+    <color name="color_view_back">#ABB8BE</color>
+
+    <color name="green_light">#A3D354</color>
+
+    <color name="green">#07A80D</color>
+    <color name="blue">#2A73E1</color>
+    <color name="deep_orange">#FF9800</color>
+    <color name="dark_green">#365314</color>
+
+    <color name="dark_brown">#473A36</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="gray">#7E7C7B</color>
+
+    <color name="colorLightRed">#F13C18</color>
+    <color name="colorPurple">#7F3DF4</color>
+    <color name="colorOrange">#FB4C15</color>
+    <color name="colorRed">#FF2323</color>
+    <color name="colorYellow">#ffeb3b</color>
+    <color name="colorLightYellow">#EDDF63</color>
+    <color name="colorDarkGray">#757575</color>
+    <color name="backgroud_light_gray">#95000000</color>
+
+    <color name="colorTint">#ed8383</color>
+    <color name="orangeTint">#efb02f</color>
+    <color name="greenTint">#0fa340</color>
+    <color name="blueTint">#31c1e6</color>
+
+    <color name="textColorGreen">#18C578</color>
+
+    <color name="background_color">#f6f6f6</color>
+    <color name="transparent">#00000000</color>
+</resources>

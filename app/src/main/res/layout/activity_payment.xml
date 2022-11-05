@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="PaymentActivityBinding">
+
+        <variable
+            name="viewModel"
+            type="com.iitms.bfr.ui.viewModel.PaymentActivityViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_success"
+            android:background="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_sucess"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_150"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_payment_sucess" />
+
+            <TextView
+                android:textSize="@dimen/sp_18"
+                android:textStyle="bold"
+                style="@style/CustomTextView"
+                android:textColor="@color/textColorSecondary"
+                android:gravity="center"
+                android:text="@string/payment_sucess"
+                android:layout_below="@+id/iv_sucess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

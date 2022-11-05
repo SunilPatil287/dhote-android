@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/drawable/bottom_nav_selected.xml" value="0.2703125" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/drawable/button_background.xml" value="0.2703125" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/drawable/ic_back_arrow_white.xml" value="0.2703125" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/drawable/ic_home_black.xml" value="0.2703125" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/drawable/ic_person_24_primary.xml" value="0.2703125" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/drawable/ic_profile.xml" value="0.2703125" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/drawable/login_background.xml" value="0.2703125" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/layout/activity_home.xml" value="0.12" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/layout/contant_main.xml" value="0.1" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/layout/fragment_forgot_password.xml" value="0.2318840579710145" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/layout/fragment_home.xml" value="0.20742753623188406" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/layout/fragment_profile.xml" value="0.190625" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/layout/fragment_splash.xml" value="0.20742753623188406" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/layout/layout_bottom_nav.xml" value="0.16734972677595628" />
+        <entry key="..\:/Project New/RFC PROJECT/SD_SLIIT_SHRI_NEW/app/src/main/res/menu/bottom_nav_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/drawable/bottom_nav_selected.xml" value="0.1785" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/drawable/button_background.xml" value="0.119" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/drawable/button_background_fill.xml" value="0.119" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/drawable/counter_bg.xml" value="0.2" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/drawable/ic_heart.xml" value="0.1785" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/drawable/ic_home_black.xml" value="0.1785" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/drawable/ic_my_learning.xml" value="0.1785" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/layout/activity_home.xml" value="0.16" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/layout/activity_login.xml" value="0.13333333333333333" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/layout/activity_registration.xml" value="0.13333333333333333" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/layout/activity_splash.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/layout/fragment_dashboard.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/layout/fragment_faculty_registration.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/layout/fragment_student_registration.xml" value="0.18" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/layout/item_course.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/layout/layout_bottom_nav.xml" value="0.18" />
+        <entry key="..\:/Rajat/Android project/ANDROID_BFR/app/src/main/res/menu/bottom_nav_items.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/drawable/circle_white.xml" value="0.161" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/drawable/custom_checkbox_new.xml" value="0.1" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/drawable/edittext_background_unfill.xml" value="0.1" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/drawable/outline_bg.xml" value="0.2115" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/drawable/shape_custom_spinner.xml" value="0.1" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/activity_home.xml" value="0.13" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/activity_registration.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/activity_splash.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/dialog_common.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/dialog_terms_condition.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/fragment_faculty_registration.xml" value="0.16" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/fragment_home.xml" value="0.14" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/fragment_student_registration.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/item_common_spinner.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/item_course.xml" value="0.2" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/layout/layout_bottom_nav.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/BFR Android/app/src/main/res/menu/bottom_nav_items.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/Android_SD_Digital_Evaluation/app/src/main/res/layout/activity_home.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/Android_SD_Digital_Evaluation/app/src/main/res/layout/fragment_scan_answer_sheet.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/Android_SD_Digital_Evaluation/app/src/main/res/layout/fragment_scan_answer_sheet2.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/Android_SD_Digital_Evaluation/app/src/main/res/layout/fragment_scan_answer_sheet_horizontal.xml" value="0.155859375" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/drawable/button_background.xml" value="0.1995" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/drawable/button_background_fill.xml" value="0.128" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/drawable/button_background_unfill.xml" value="0.128" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/drawable/circle_bg.xml" value="0.129" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/drawable/ic_close.xml" value="0.106" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/drawable/outline_bg.xml" value="0.128" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/drawable/outline_blank_bg.xml" value="0.128" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/drawable/rounded_background.xml" value="0.128" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/drawable/rounded_background_white.xml" value="0.128" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/activity_home.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/activity_image_view.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/activity_login.xml" value="0.15" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/activity_splash.xml" value="0.67" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/dialog_common.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/fragment_forgot_password.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/fragment_home.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/fragment_login.xml" value="0.14583333333333334" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/fragment_profile.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/fragment_progress_dialog.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/fragment_scan_answer_sheet.xml" value="0.1" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/fragment_scan_paper.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/fragment_splash.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/item_common_spinner.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/layout_bottom_nav.xml" value="0.153125" />
+        <entry key="..\:/Rajat/Android project/Digital Evaluation/app/src/main/res/layout/list_answer_sheet.xml" value="0.75" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable-v24/gradient_bg.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/bottom_nav_selected.xml" value="0.151" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/button_background.xml" value="0.132" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/button_background_fill.xml" value="0.1" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/button_background_unfill.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/circle_white.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/counter_bg.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/custom_checkbox_new.xml" value="0.184" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/dash_bg.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/edittext_background_unfill.xml" value="0.1" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/gradient_bg.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/header_background.xml" value="0.132" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/ic_add.xml" value="0.184" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/ic_arrow_right.xml" value="0.184" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/ic_cart.xml" value="0.2115" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/ic_dashboard.xml" value="0.1065" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/ic_home_black.xml" value="0.1065" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/ic_plus.xml" value="0.1" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/ic_star.xml" value="0.184" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/ic_upload.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/login_background.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/outline_bg.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/outline_blank_bg.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/rectangle_background.xml" value="0.1" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/rounded_background.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/rounded_background_half_circle.xml" value="0.1245" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/rounded_background_half_circle_color_primary.xml" value="0.1245" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/rounded_background_half_circle_white.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/rounded_background_white.xml" value="0.1" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/rounded_bg_border.xml" value="0.1045" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/rounded_dialog_background.xml" value="0.1245" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/shape_custom_spinner.xml" value="0.1" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/tab_background_fill.xml" value="0.1245" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/tab_background_unfill.xml" value="0.1245" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/tab_layout_background.xml" value="0.1245" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/drawable/tab_selector.xml" value="0.1245" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/activity_otp_verification.xml" value="0.18" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/activity_payment.xml" value="0.10277777777777777" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/activity_registration.xml" value="0.16" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/activity_splash.xml" value="0.10694444444444444" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/dialog_common.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/dialog_delivery_time_list.xml" value="0.14097222222222222" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/dialog_select_location.xml" value="0.2" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/dialog_terms_condition.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragmen_registration.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_account.xml" value="0.2" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_add_address.xml" value="0.14" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_address.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_apply_coupon.xml" value="0.14" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_cart.xml" value="0.18" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_category.xml" value="0.1" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_contact_us.xml" value="0.12" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_faq.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_home.xml" value="0.18" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_order_status.xml" value="0.16" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_orders.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_payment.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_privacy.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_profile.xml" value="0.18" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_progress_dialog.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_registration.xml" value="0.1284722222222222" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_sub_category.xml" value="0.18" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_sub_category_detail.xml" value="0.16" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/fragment_terms.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_category.xml" value="0.18" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_category_staggered_list.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_common_spinner.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_coupon.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_course.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_delivery_time.xml" value="0.2157279489904357" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_home_category.xml" value="0.33" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_location.xml" value="0.2" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_menu.xml" value="0.18" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_more_coupon.xml" value="0.2" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_orders.xml" value="0.18" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/item_sub_category.xml" value="0.18" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/layout/layout_bottom_nav.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/menu/bottom_nav_items.xml" value="0.153125" />
+        <entry key="..\:/Rajat/MyApps/Ekart/app/src/main/res/menu/options_menu.xml" value="0.153125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

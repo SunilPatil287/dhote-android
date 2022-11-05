@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "127457205590",
+    "project_id": "bfr-app-e36da",
+    "storage_bucket": "bfr-app-e36da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127457205590:android:823e1a994cf38a9f4d0af7",
+        "android_client_info": {
+          "package_name": "com.iitms.bfr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127457205590-gf78jqdno4ji0gb540v2vjbsq1ivi08k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAUkvJ6RIWQyCHUKuRtRH7R9KYBDOe6iI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127457205590-gf78jqdno4ji0gb540v2vjbsq1ivi08k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

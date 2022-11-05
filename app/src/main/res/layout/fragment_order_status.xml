@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="OrderStatusFragmentBinding">
+
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        tools:context=".ui.view.fragment.CartFragment">
+
+        <LinearLayout
+            app:layout_constraintBottom_toTopOf="@+id/ll_bottom"
+            android:id="@+id/ll_main"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_marginBottom="@dimen/dp_10"
+                android:clipToPadding="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dp_08"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dp_03"
+                        app:cardCornerRadius="@dimen/dp_10">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/dp_10">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/iv_location"
+                                    android:layout_width="@dimen/dp_25"
+                                    android:layout_height="@dimen/dp_25"
+                                    android:layout_centerVertical="true"
+                                    android:src="@drawable/ic_bag" />
+
+                                <TextView
+                                    style="@style/CustomTextView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_toRightOf="@+id/iv_location"
+                                    android:paddingStart="@dimen/dp_10"
+                                    android:text="Arriving Tomorrow"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="@dimen/dp_16"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    style="@style/CustomTextView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_centerVertical="true"
+                                    android:text="15 Jul, 08 - 10 PM"
+                                    android:textColor="@color/textColorSecondary"
+                                    android:textSize="@dimen/dp_15"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginTop="@dimen/dp_05"
+                                android:layout_marginBottom="@dimen/dp_05"
+                                android:background="@drawable/dash_bg" />
+
+                            <TextView
+                                style="@style/CustomTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/iv_location"
+                                android:text="Delivery to Office"
+                                android:textColor="@color/textColorSecondary"
+                                android:textSize="@dimen/dp_15"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                style="@style/CustomTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/iv_location"
+                                android:text="Plot No 85, Trimurti Nagar nagpur 440066"
+                                android:textColor="@color/textColorLight"
+                                android:textSize="@dimen/dp_13" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp_02"
+                        android:text="@string/lbl_order_cancellation_note"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/sp_13" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_margin="@dimen/dp_05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_circle_placed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:src="@drawable/ic_check_new"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:tint="@color/green" />
+
+                        <TextView
+                            android:id="@+id/lbl_placed"
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/dp_10"
+                            android:paddingTop="@dimen/dp_03"
+                            android:text="Order Placed"
+                            android:textColor="@color/textColorSecondary"
+                            android:textSize="@dimen/dp_15"
+                            android:textStyle="bold"
+                            app:layout_constraintLeft_toRightOf="@+id/iv_circle_placed"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/dp_10"
+                            android:text="14 Jul, 08:15 PM (Order is Confirmed)"
+                            android:textColor="@color/textColorLight"
+                            android:textSize="@dimen/dp_12"
+                            app:layout_constraintLeft_toRightOf="@+id/iv_circle_placed"
+                            app:layout_constraintTop_toBottomOf="@+id/lbl_placed" />
+
+
+                        <View
+                            android:id="@+id/view1"
+                            android:layout_width="1dp"
+                            android:layout_height="@dimen/dp_35"
+                            android:background="@color/gray"
+                            app:layout_constraintEnd_toEndOf="@+id/iv_circle_placed"
+                            app:layout_constraintStart_toStartOf="@+id/iv_circle_placed"
+                            app:layout_constraintTop_toBottomOf="@+id/iv_circle_placed" />
+
+
+                        <ImageView
+                            android:id="@+id/iv_circle_processing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:src="@drawable/ic_uncheck_new"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/view1"
+                            app:tint="@color/gray" />
+
+                        <TextView
+                            android:id="@+id/lbl_processing"
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/dp_10"
+                            android:paddingTop="@dimen/dp_03"
+                            android:text="Order is processing"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/dp_15"
+                            android:textStyle="bold"
+                            app:layout_constraintLeft_toRightOf="@+id/iv_circle_processing"
+                            app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+                        <TextView
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/dp_10"
+                            android:text=""
+                            android:textColor="@color/textColorLight"
+                            android:textSize="@dimen/dp_12"
+                            app:layout_constraintLeft_toRightOf="@+id/iv_circle_processing"
+                            app:layout_constraintTop_toBottomOf="@+id/lbl_processing" />
+
+
+                        <View
+                            android:id="@+id/view2"
+                            android:layout_width="1dp"
+                            android:layout_height="@dimen/dp_35"
+                            android:background="@color/gray"
+                            app:layout_constraintEnd_toEndOf="@+id/iv_circle_processing"
+                            app:layout_constraintStart_toStartOf="@+id/iv_circle_processing"
+                            app:layout_constraintTop_toBottomOf="@+id/iv_circle_processing" />
+
+
+                        <ImageView
+                            android:id="@+id/iv_circle_out_delivery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:src="@drawable/ic_uncheck_new"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/view2"
+                            app:tint="@color/gray" />
+
+                        <TextView
+                            android:id="@+id/lbl_out_delivery"
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/dp_10"
+                            android:paddingTop="@dimen/dp_03"
+                            android:text="Order is out for delivery"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/dp_15"
+                            android:textStyle="bold"
+                            app:layout_constraintLeft_toRightOf="@+id/iv_circle_out_delivery"
+                            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+                        <TextView
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/dp_10"
+                            android:text=""
+                            android:textColor="@color/textColorLight"
+                            android:textSize="@dimen/dp_12"
+                            app:layout_constraintLeft_toRightOf="@+id/iv_circle_out_delivery"
+                            app:layout_constraintTop_toBottomOf="@+id/lbl_out_delivery" />
+
+
+                        <View
+                            android:id="@+id/view3"
+                            android:layout_width="1dp"
+                            android:layout_height="@dimen/dp_35"
+                            android:background="@color/gray"
+                            app:layout_constraintEnd_toEndOf="@+id/iv_circle_out_delivery"
+                            app:layout_constraintStart_toStartOf="@+id/iv_circle_out_delivery"
+                            app:layout_constraintTop_toBottomOf="@+id/iv_circle_out_delivery" />
+
+                        <ImageView
+                            android:id="@+id/iv_circle_delivery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:src="@drawable/ic_uncheck_new"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/view3"
+                            app:tint="@color/gray" />
+
+                        <TextView
+                            android:id="@+id/lbl_delivery"
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/dp_10"
+                            android:paddingTop="@dimen/dp_03"
+                            android:text="Order is delivered"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/dp_15"
+                            android:textStyle="bold"
+                            app:layout_constraintLeft_toRightOf="@+id/iv_circle_delivery"
+                            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+                        <TextView
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/dp_10"
+                            android:text=""
+                            android:textColor="@color/textColorLight"
+                            android:textSize="@dimen/dp_12"
+                            app:layout_constraintLeft_toRightOf="@+id/iv_circle_delivery"
+                            app:layout_constraintTop_toBottomOf="@+id/lbl_delivery" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        style="@style/CustomTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_location"
+                        android:text="Delivery Details"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/dp_15"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_background_unfill"
+                        android:backgroundTint="@null"
+                        android:orientation="vertical"
+                        android:padding="@dimen/dp_10">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_bike" />
+
+                            <TextView
+                                style="@style/CustomTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:paddingStart="@dimen/dp_10"
+                                android:text="Rahul Singh"
+                                android:textColor="@color/textColorSecondary"
+                                android:textSize="@dimen/sp_14" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                style="@style/CustomTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:paddingStart="@dimen/dp_10"
+                                android:text="Contact No : "
+                                android:textColor="@color/textColorSecondary"
+                                android:textSize="@dimen/sp_14" />
+
+                            <TextView
+                                style="@style/CustomTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:paddingStart="@dimen/dp_10"
+                                android:text="+91 9876543120"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp_14" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        style="@style/CustomTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/dp_05"
+                        android:layout_toRightOf="@+id/iv_location"
+                        android:text="Order Details"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/dp_15"
+                        android:textStyle="bold" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dp_05"
+                        app:cardCornerRadius="@dimen/dp_10">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/dp_05">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/cv_category"
+                                android:layout_width="@dimen/dp_80"
+                                android:layout_height="@dimen/dp_80"
+                                android:layout_margin="@dimen/dp_05"
+                                app:cardCornerRadius="@dimen/dp_08">
+
+                                <ImageView
+                                    android:id="@+id/iv_category"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_chicken_logo" />
+
+
+                            </androidx.cardview.widget.CardView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toEndOf="@+id/cv_category"
+                                android:orientation="vertical"
+                                android:padding="@dimen/dp_10">
+
+                                <ImageView
+                                    android:layout_width="@dimen/dp_20"
+                                    android:layout_height="@dimen/dp_20"
+                                    android:src="@drawable/ic_non_veg"
+                                    app:tint="@color/colorPrimary" />
+
+                                <TextView
+                                    android:id="@+id/tv_category_name"
+                                    style="@style/CustomTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Chicken Curry Cut (1 Kg)"
+                                    android:textColor="@color/textColorSecondary"
+                                    android:textSize="@dimen/sp_15"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_description"
+                                    style="@style/CustomTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Chicken curry"
+                                    android:textColor="@color/textColorLight"
+                                    android:textSize="@dimen/sp_13" />
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:padding="@dimen/dp_10"
+            android:background="@color/colorWhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btn_cancel_order"
+                style="@style/CustomTextView"
+                android:text="@string/lbl_cancel_order"
+                android:backgroundTint="@null"
+                android:background="@drawable/button_background_fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:paddingStart="@dimen/dp_05"
+                style="@style/CustomTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_05"
+                android:text="Bill Details"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="@dimen/dp_15"
+                android:textStyle="bold" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="@dimen/dp_03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/dp_10">
+
+                <RelativeLayout
+                    android:padding="@dimen/dp_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        style="@style/CustomTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_item_total"
+                        android:textColor="@color/textColorLight"
+                        android:textSize="@dimen/sp_12"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_item_total"
+                        style="@style/CustomTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="Rs 150"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_below="@+id/tv_item_total"
+                        style="@style/CustomTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_tax_charges"
+                        android:textColor="@color/textColorLight"
+                        android:textSize="@dimen/sp_12"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_tax_chages"
+                        style="@style/CustomTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_item_total"
+                        android:layout_alignParentEnd="true"
+                        android:text="Rs 10"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/CustomTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_tax_chages"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="@string/lbl_total_pay"
+                        android:textSize="@dimen/sp_14"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_total_pay"
+                        style="@style/CustomTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_tax_chages"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="Rs 155"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/sp_14"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

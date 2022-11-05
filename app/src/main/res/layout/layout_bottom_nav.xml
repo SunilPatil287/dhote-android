@@ -1,0 +1,48 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="?attr/actionBarSize" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="@dimen/dp_05"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp"
+        app:fabAlignmentMode="center">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:backgroundTint="@android:color/transparent"
+            app:elevation="0dp"
+            app:itemIconTint="@drawable/bottom_nav_selected"
+            app:itemRippleColor="@color/colorLightGray"
+            app:itemTextColor="@drawable/bottom_nav_selected"
+            app:menu="@menu/bottom_nav_items" />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        app:borderWidth="0dp"
+        app:tint="@color/colorWhite"
+        android:backgroundTint="@color/colorPrimary"
+        android:contentDescription="@string/image_description"
+        android:src="@drawable/ic_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/bottomBar" />-->
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

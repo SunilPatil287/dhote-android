@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="TermsConditionDialog">
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="@dimen/dp_10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_background_white"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_10">
+
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="@dimen/dp_25"
+                android:layout_height="@dimen/dp_25"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dp_10"
+                android:src="@drawable/ic_close"
+                app:tint="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/CustomTextViewBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10"
+                android:text="@string/terms_of_use"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_title">
+
+                <TextView
+                    android:id="@+id/tv_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_10"
+                    android:text="@string/terms" />
+            </androidx.core.widget.NestedScrollView>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</layout>
